@@ -1210,7 +1210,7 @@ static unsigned long GB_Bits (void *junk1, void *junk2)
 }
 
 
-unif01_Gen *unif01_CreateExternGenBits (const const char *name,
+unif01_Gen *unif01_CreateExternGenBits (const char *name,
     unsigned int (*f_Bits)(void))
 {
    unif01_Gen *gen;
